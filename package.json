@@ -1,0 +1,25 @@
+{
+  "name": "gradient-generator",
+  "version": "1.0.0",
+  "description": "Generate a linear gradient, choosing colours and an angle",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damir Avdic",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberDaco/gradient-generator.git"
+  },
+  "keywords": [
+    "gradient",
+    "css",
+    "generate",
+    "background"
+  ],
+  "bugs": {
+    "url": "https://github.com/CyberDaco/gradient-generator/issues"
+  },
+  "homepage": "https://github.com/CyberDaco/gradient-generator#readme"
+}
