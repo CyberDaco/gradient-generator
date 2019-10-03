@@ -1,6 +1,5 @@
 const css = document.querySelector('h3');
-const colour1 = document.querySelector('.colour1');
-const colour2 = document.querySelector('.colour2');
+const [colour1, colour2] = document.querySelectorAll('.colour');
 const colourPicker = document.querySelector('.colour-picker');
 const body = document.querySelector('body');
 const degreeInput = document.querySelector('.degrees');
@@ -11,7 +10,6 @@ const update = (e) => {
     css.textContent = backgroundGradient + ';';
     body.style.background = backgroundGradient;
     degreeDisplay.textContent = `${degreeInput.value}`;
-    console.log(`Degrees: ${degreeInput.value}deg`)
 }
 
 colourPicker.addEventListener('input',update);
